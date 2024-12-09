@@ -1,0 +1,21 @@
+.RoadsWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -100px;
+    width: 100%;
+    z-index: 2;
+}
+
+.Left{
+    position: absolute;
+    top: 350px;
+    overflow: hidden;
+    left: -600px;
+}
+
+.Right{
+    top: -10px;
+    position: absolute;
+    right: -100px;
+    overflow: hidden;
+}
